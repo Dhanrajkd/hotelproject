@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100vh;
+    background-color:aliceblue;
+}
+.hotel {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    column-gap: 1070px;
+    background-color: white;
+    align-items: center;
+}
+button {
+    border: 0;
+    background-color: white;
+}
+.page {
+    display: flex;
+    flex-direction: row;
+    column-gap: 860px;
+    border: 1px solid black;
+    background-color: white;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+nav a {
+    margin-left: 20px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.map {
+    display: flex;
+    border: 1px solid black;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    background-color:white;
+    align-items: center;
+    column-gap: 650px;
+}
+.booking {
+  
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.tablebook{
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 300px;
+    margin-top: 40px;
+    margin-left: 10px;
+    width:auto ;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px black;
+    border: 0;
+}
+.tablebook1 {
+    margin-top: 50px;
+}
+input {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    border: 0;
+    outline: 0;
+}
+.button {
+    margin-left: 200px;
+    margin-top: 30px;
+}
+button {
+    width: 50px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+img {
+    background-color: white;
+    margin-top: -15px;
+}
+#table {
+    text-decoration: underline;
+}
